@@ -18,9 +18,9 @@ public class Exercices {
      */
     public static void main(String[] args) {
        
-        //Exercice 1
-        //Affiche Hello world
-        //System.out.println("Hello world");
+//        Exercice 1
+//        Affiche Hello world
+//        System.out.println("Hello world");
         
         //declaration d'un scanner pour la suite des exercices
         //Scanner ac = new Scanner(System.in);
@@ -132,7 +132,7 @@ public class Exercices {
     }
     
     //Exercice 10
-    public boolean plusGrand(int a, int b)  {
+    /*public boolean plusGrand(int a, int b)  {
         a = 2;
         b = 3;
         if (a > b){
@@ -140,14 +140,43 @@ public class Exercices {
         }else{
             return false;
         } 
-    }
+    }*/
      
     //Exercice 11
-    public void pythagore(int a, int b){
-        a = 2;
-        b = 3;
+    
+    /*public class Pythagore{
         
-
-    } 
-  
+        public double calcul_hypo(int coteA,int coteB)  {
+            int carre1 = coteA*coteA;
+            int carre2 = coteB*coteB;
+            int carre = carre1 + carre2;
+            double hypo = Math.sqrt(carre);
+            return hypo;
+        }
+        public double calcul_cote(int cote,int hypo)    {
+            int hypo_carre = hypo*hypo;
+            int cote_carre = cote*cote;
+            int carre = hypo_carre-cote_carre;
+            double cote2 = Math.sqrt(carre);
+            return cote2;
+        }
+    }
+*/
+    public class Exo12{
+        
+        public void demandeValeurs(){
+            int valeurs;
+            Scanner ac = new Scanner(System.in);
+            System.out.println("Veuillez entrer une valeur");
+            valeurs = ac.nextInt();
+            
+             int [] tabVal = new int[valeurs];
+             
+             
+        }
+    }
+    
+    
+    
+    
 }
